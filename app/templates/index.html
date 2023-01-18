@@ -65,14 +65,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-         <a class="navbar-brand" href="#">Welcome {{name}}</a>
+        
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+       
         <li><a href="#analysis"><span class="glyphicon glyphicon-stats"></span> Analysis</a></li>
-        <li><a href="#updates"><span class="glyphicon glyphicon-folder-open "></span> &nbsp; Case files</a></li>
-        <li><a href="#shooting"><span class="glyphicon glyphicon-globe "></span> &nbsp; International</a></li>
+       
+      
 
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -95,9 +95,8 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="text-content">
-                <h2>Indian Crime Analytics Department</h2>
+                <h2>Behaviour And Analysis of Crimes using Machine Learning</h2>
                   <div class="line-dec"></div>
-                  <span>Keeping our Country Safe &amp; Secure through data</span>
                 </div>
               </div>
             </div>
@@ -115,7 +114,7 @@
                     <img src= "{% static 'img/icons8-intelligence-100.png' %}" alt="">
                   </div>
                   <h4>Machine Learning</h4>
-                  <p>Officers can make use of Machine learning algorithm to make accurate predictions that can very much help them solve cases</p>
+                  <p>Machine learning for prediction and analysis of seasonal analysis and yearly cycle</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
@@ -123,8 +122,8 @@
                   <div class="icon">
                     <img src="{% static 'img/SEO-icon.png' %}" alt="">
                   </div>
-                  <h4>Visualizations</h4>
-                  <p>Officers can view interactive plots and visualizations to help them understand the crimes and take actions accordingly</p>
+                  <h4>Visualizations And Analysis</h4>
+                  <p>Get trends and analysis and deploy it for future protections!</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
@@ -132,8 +131,8 @@
                   <div class="icon">
                     <img src="{% static 'img/o.png' %}" alt="">
                   </div>
-                  <h4>Case Updates</h4>
-                  <p>Officers can view all the latest case Updates and add any available current cases to keep updating the registry</p>
+                  <h4>Secure Storage</h4>
+                  <p>Access rights and other server securities for enhanced data integrity </p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
@@ -154,7 +153,7 @@
 <div class="container">
   <div class="jumbotron">
   
-    <h2>Crimes Against Women <a href="/formcrimesagaintswomen" class="btn btn-default btn-sm">
+    <h2>Crimes List <a href="/formcrimesagaintswomen" class="btn btn-default btn-sm">
           <span class="glyphicon glyphicon-plus"></span> Add 
         </a> </h2>
    <p><a href="/overyears"> Click here for Analysis over the years</a></p>
@@ -256,127 +255,6 @@
 
 
 
-      <div id="updates">
-        <section class="fourth-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item second-item">
-                  <div class="image">
-                    <a href={% static '01.html' %} data-lightbox="image-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMXdVbADAb_owiESsuNG3WP4Qmq51rHCrkWhymPsrPDQRThmr" style="width:300px;height:200px;"></a>
-                  </div>
-                  <div class="text">
-                    <h4>Tamil Nadu tourist found dead in Kullu</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item second-item">
-                  <div class="image">
-                    <a href={% static '02.html' %} data-lightbox="image-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28GlXEQ494wZD6qqQykMQ3hvugK-vyzcWwWn2ogZxA49FGrDA" style="width:300px;height:200px;"></a>
-                  </div>
-                  <div class="text">
-                    <h4>US envoy meets Tamil Nadu governor
-</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item third-item">
-                  <div class="image">
-                    <a href={% static '03.html' %} data-lightbox="image-1"><img src="https://resize.indiatvnews.com/en/centered/oldbucket/715_431/mainnational/IndiaTv63e0c3_UP-police-final.jpg" style="width:300px;height:200px;"></a>
-                  </div>
-                  <div class="text">
-                    <h4>Constable gathering intel murdered in TN</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="send-to-portfolio">
-                  <span>Check out the latest developments</span>
-                  <div class="primary-button">
-                    <a href="/updates">Case Updates</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-  <div id="shooting">
-  <div class="container">
-  <div class="jumbotron">
-  
-    <h2>School Shootings in the United States Of America  </h2>
-    <p><a href="/shooting"> Time series plot of the casualities over the years</a></p>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#citi">With respect to cities</button>
-
-  <div id="citi" class="collapse">
-    <br>
-        <p><a href="/death"> Number of Deaths</a></p>
-        <p><a href="/inj"> Number of Injuries</a></p>
-        <p><a href="/diainj"> Number of Deaths vs Injuries</a></p>
-        <p><a href="/deaandinj"> Number of Deaths + Injuries</a></p>
-  </div>
-  <br><br>
-
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#shoot">With respect to State</button>
-
-  <div id="shoot" class="collapse">
-    <br>
-        <p><a href="/shot_kil"> Number of Deaths</a></p>
-        <p><a href="/shot_inj"> Number of Injuries</a></p>
-        <p><a href="/injkill"> Number of Deaths vs Injuries</a></p>
-        <p><a href="/fatal"> Number of Deaths + Injuries</a></p>
-
-
-
-
-
-  </div>
-</div>
-</div>
-  <div class="container">
-  <div class="jumbotron">
-  <h2>San Francisco City Crime Prediction  </h2>
-
-  <p><a href="/sanfrancisco"> Select the paramaters for the prediction</a></p>
-
-<p>The dataset provides nearly 12 years of crime reports from across all of San Francisco's neighborhoods and given time and location, we have used predict the category of crime that occurred.
-</p>
-
-      <p><a href="https://www.kaggle.com/c/sf-crime/data"> Link to the used Kaggle Dataset </a></p>
-
-
-
-  
-
-
-</div>
-</div>
-</div>
-<footer>
-
-                  <a href="https://www.facebook.com/sangarshanan.veera"><i class="fa fa-facebook"></i></a>
-                  <a href="https://twitter.com/sangarshanan"><i class="fa fa-twitter"></i></a>
-                  <a href="https://linkedin.com/in/sangarshanan"><i class="fa fa-linkedin-square"></i></a>
-                  <a href="https://github.com/Sangarshanan"><i class="fa fa-github"></i></a>
-
-                <br>
-                <h4> <a href="https://github.com/Sangarshanan/Crime-Analytics-Web-Application" target="_parent">Source Code</a></h4>
-           
-</footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
     </body>
 </html>
